@@ -44,7 +44,7 @@ cd ${NAME}
 
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} ..
+cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DYAML_CPP_BUILD_TESTS=OFF ..
 
 echo "yaml-cpp: Building..."
 ${MAKE}
