@@ -63,7 +63,7 @@ if [ -n "$YAML_CPP_BUILD" -o -z "${YAML_CPP_DIR}" ]; then
     # Fortran modules may be located in the lib directory
     YAML_CPP_INC_DIRS="${YAML_CPP_DIR}/include ${YAML_CPP_DIR}/lib"
     YAML_CPP_LIB_DIRS="${YAML_CPP_DIR}/lib"
-    YAML_CPP_LIBS="yamp_cpp"
+    YAML_CPP_LIBS="yamp-cpp"
 else
     DONE_FILE=${SCRATCH_BUILD}/done/${THORN}
     if [ ! -e ${DONE_FILE} ]; then
