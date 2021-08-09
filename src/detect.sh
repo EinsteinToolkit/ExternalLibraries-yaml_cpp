@@ -37,7 +37,7 @@ if [ -z "${YAML_CPP_BUILD}" -a -z "${YAML_CPP_INC_DIRS}" -a -z "${YAML_CPP_LIB_D
     find_lib YAML_CPP yaml-cpp 1 1.0 "yaml-call" "yaml-cpp.H" "$YAML_CPP_DIR"
 fi
 
-THORN=yaml-cpp
+THORN=yaml_cpp
 
 # configure library if build was requested or is needed (no usable
 # library found)

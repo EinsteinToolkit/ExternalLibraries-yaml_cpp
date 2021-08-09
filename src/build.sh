@@ -13,7 +13,7 @@ set -e                          # Abort on errors
 
 
 # Set locations
-THORN=yaml-cpp
+THORN=yaml_cpp
 NAME=yaml-cpp-0.6.3
 SRCDIR="$(dirname $0)"
 BUILD_DIR=${SCRATCH_BUILD}/build/${THORN}
