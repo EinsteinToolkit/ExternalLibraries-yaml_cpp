@@ -1,6 +1,6 @@
 # Configuration definitions for thorn yaml-cpp
 
-PROVIDES YAML_CPP
+PROVIDES yamL_cpp
 {
   SCRIPT src/detect.sh
   LANG bash
@@ -8,4 +8,4 @@ PROVIDES YAML_CPP
 }
 
 # Pass configuration options to build script
-REQUIRES YAML_CPP
+REQUIRES yaml_cpp
