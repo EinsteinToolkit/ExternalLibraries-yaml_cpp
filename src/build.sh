@@ -42,6 +42,8 @@ ${TAR?} xf ${SRCDIR}/../dist/${NAME}.tar
 echo "yaml-cpp: Configuring..."
 cd ${NAME}
 
+unset LIBS
+
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DYAML_CPP_BUILD_TESTS=OFF ..
