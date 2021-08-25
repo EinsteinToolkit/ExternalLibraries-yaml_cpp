@@ -46,7 +46,7 @@ unset LIBS
 
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DYAML_CPP_BUILD_TESTS=OFF ..
+${CMAKE_DIR:+${CMAKE_DIR}/bin/}cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DYAML_CPP_BUILD_TESTS=OFF ..
 
 echo "yaml-cpp: Building..."
 ${MAKE}

@@ -9,3 +9,7 @@ PROVIDES yaml_cpp
 
 # Pass configuration options to build script
 REQUIRES yaml_cpp
+
+OPTIONAL CMake
+{
+}
