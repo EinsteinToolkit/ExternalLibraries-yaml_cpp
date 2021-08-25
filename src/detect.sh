@@ -34,7 +34,7 @@ fi
 # assign default values to variables.
 # Try to find the library if build isn't explicitly requested
 if [ -z "${YAML_CPP_BUILD}" -a -z "${YAML_CPP_INC_DIRS}" -a -z "${YAML_CPP_LIB_DIRS}" -a -z "${YAML_CPP_LIBS}" ]; then
-    find_lib YAML_CPP yaml-cpp 1 1.0 "yaml-call" "yaml-cpp.H" "$YAML_CPP_DIR"
+    find_lib YAML_CPP yaml-cpp 1 1.0 "yaml-cpp" "yaml-cpp/yaml.h" "$YAML_CPP_DIR"
 fi
 
 THORN=yaml_cpp
