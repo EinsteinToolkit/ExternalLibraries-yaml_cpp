@@ -1,0 +1,13 @@
+diff -ur yaml-cpp-0.6.3.orig/CMakeLists.txt yaml-cpp-0.6.3/CMakeLists.txt
+--- yaml-cpp-0.6.3.orig/CMakeLists.txt	2019-09-25 09:56:00.000000000 -0700
++++ yaml-cpp-0.6.3/CMakeLists.txt	2025-09-03 15:16:04.471522935 -0700
+@@ -2,7 +2,7 @@
+ ### CMake settings
+ ###
+ # see http://www.cmake.org/Wiki/CMake_Policies
+-cmake_minimum_required(VERSION 3.1)
++cmake_minimum_required(VERSION 3.5...3.30)
+ 
+ include(CheckCXXCompilerFlag)
+ 
+Only in yaml-cpp-0.6.3: CMakeLists.txt~
